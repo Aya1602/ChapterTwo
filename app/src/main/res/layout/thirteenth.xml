@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="26sp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Java World"
+        android:textSize="26sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Android!"
+        android:textSize="26sp"
+        android:layout_gravity="bottom|center_horizontal"/>
+
+</FrameLayout>
+
+<!--
+Нередко FrameLayout применяется для создания производных контейнеров,
+например, ScrollView, который обеспечивает прокрутку.-->
+
+<!--Элементы управления, которые помещаются в FrameLayout, могут установить
+свое позиционирование с помощью атрибута android:layout_gravity:-->
+
+<!--
+При указании значения мы можем комбинировать ряд значений,
+разделяя их вертикальной чертой: bottom|center_horizontal-->

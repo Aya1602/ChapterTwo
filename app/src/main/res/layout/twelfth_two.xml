@@ -1,0 +1,54 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:textSize="22sp"
+            android:text="Логин"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textSize="22sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"  />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textSize="22sp"
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Отправить"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#F8EC86"/>
+    </TableRow>
+</TableLayout>
+
+    <!--
+    Если какой-то элемент должен быть растянут на ряд столбцов,
+    то мы можем растянуть его с помощью атрибута layout_span, который
+    указывает на какое количество столбцов надо растянуть элемент:-->
+
+<!--
+Также можно растянуть элемент на всю строку, установив у него атрибут
+ android:layout_weight="1":
+ <TableRow>
+    <Button
+        android:text="Отправить"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</TableRow>
+-->
